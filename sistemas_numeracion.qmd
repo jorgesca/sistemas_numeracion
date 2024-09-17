@@ -1,0 +1,90 @@
+---
+title: "Proyecto 5: Sistemas de numeración, operaciones aritméticas y lógicas"
+subtitle: "Electrónica II para Ingeniería Electrónica. 2024"
+format: pdf
+lang: es
+---
+
+## Objetivos
+
+Los objetivos de este proyecto son:
+
+1. Investigar en la bibliografía lo siguiente:
+    1. Sistemas de numeración
+        1. Números binarios
+        2. Números hexadecimales
+        3. Suma en binario
+        4. Representación de números negativos.
+            1. Representación con magnitud y signo.
+            2. Representación en complemento a dos.
+            3. Suma y resta en complemento a dos.
+    2. Circuitos aritméticos
+        1. Semi sumador (half adder).
+        2. Sumador completo (full adder).
+        3. Comparadores
+2. Realizar los ejercicios del libro (Harris y Harris, 2022) que se detallan a continuación:
+    1. Ejercicios impares desde el 1.7 al 1.61, con excepción de 1.37 y 1.39. Notar que las soluciones a estos ejercicios son provistas como suplementos en línea (Harris y Harris, s.f.)
+
+## Entregables
+
+Esta semana no se entregará informe, pero durante las clases de la semana que viene se evaluará la resolución de problemas similares a los propuestos en 2.1 y a los trabajados en clase.
+
+## Referencias
+
+Harris, S. L. y Harris, D. M. (2022). *Digital Design and Computer Architecture. Risc-V Edition*. Morgan Kaufmann.
+
+Harris, S. L. y Harris, D. M. (s.f.). *Solutions: Odd-numbered Exercises (pdf)*. <https://pages.hmc.edu/harris/ddca/ddcarv/DDCArv_solutions_odd.pdf>
+
+<!---
+2. Determine la cantidad de bits necesarios para representar los números de la @tbl-numeros-potencias-diez (que están expresados en decimal) en código binario natural. En un caso más general, para representar un número natural $N_{10}$, ¿cuántos bits serían necesarios? Justifique.
+3. Repita el punto anterior pero para el caso en que los números se representan en complemento a dos.
+4. Repita el punto 2) pero ahora determinando la cantidad de dígitos hexadecimales necesarios.
+5. Convertir los números de la @tbl-numeros-naturales de decimal a código binario natural. Usar el mismo número de bits para todos los números. Determinar el número de bits a partir del número de mayor magnitud.
+6. Convertir los números de la @tbl-numeros-naturales de decimal a código hexadecimal. Usar el mismo número de dígitos para todos los números. Determinar el número de dígitos a partir del número de mayor magnitud.
+7. Convertir los números de la @tbl-numeros-negativos de decimal con signo a representación en complemento a dos. Determinar el número de dígitos a partir del número de mayor magnitud en valor absoluto.
+8. Convertir los números de la @tbl-numeros-binarios de binario sin signo a decimal.
+9. Repetir 8) asumiendo que los números están en complemento a dos.
+10. Repetir 8) pero conviertiendo a hexadecimal.
+11. Convertir los números de la @tbl-numeros-hexadecimal de hexadecimal natural a decimal.
+12. Convertir los números de la @tbl-numeros-hexadecimal de hexadecimal natural a binario sin signo.
+13. Realizar las siguientes sumas  de números binarios sin signo usando para el resultado el mismo número de bits que los sumandos. Indique si hay rebosamiento. Justifique. a) $1001_2 + 0100_2$, b) $1101_2 + 1011_2$ y c) $1 0001 0001_2 + 1 1100 0011_2$.
+14. Repita el punto 11 considerando que los números están en representación en complemento a dos.
+
+
+
+
++----+-----+------+------+---------+---------+
+| 10 | 100 | 1000 | 10000 | 100000 | 1000000 |
++----+-----+------+------+---------+---------+
+
+: Lista de números potencias de 10  {#tbl-numeros-potencias-diez}
+
++----+----+-----+-----+-----+------+
+| 27 | 64 | 231 | 435 | 780 | 2000 |
++----+----+-----+-----+-----+------+
+
+: Lista de números naturales {#tbl-numeros-naturales}
+
++-----+-----+------+------+------+-------+
+| -46 | -71 | -136 | -515 | -861 | -3004 |
++-----+-----+------+------+------+-------+
+
+: Lista de números negativos {#tbl-numeros-negativos}
+
+|                                  |
+| ----:                            |
+| 1001                             | 
+|10010010                          | 
+|10010100100111                    | 
+|101001000101001001001100          | 
+|011100101100000110010111011111001 |
+
+: Lista de números binarios {#tbl-numeros-binarios}
+
++-----+------+----+----+-------+-----+
+| A12 | F022 | FF | 1F | E2F34 | 100 |
++-----+------+----+----+-------+-----+
+
+: Lista de números en hexadecimal {#tbl-numeros-hexadecimal}
+-->
+
